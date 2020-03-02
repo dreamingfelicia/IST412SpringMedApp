@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import Tests.Test;
 
 /**
  *
@@ -20,6 +21,8 @@ public class IST412 extends Application {
         
         stage.setScene(scene);
         stage.show();
+        Test test= new Test();
+        test.testAll();
     }
 
     /**
